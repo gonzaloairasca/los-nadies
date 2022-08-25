@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Open+Sans:wght@300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  height: 100vh;
+}
+body{
+  background-color: #F1F4F6;
+}
+/*CSS HEADER*/
+header{
+  width: 100%;
+  height: 125px;
+  display: flex;
+  align-items: flex-end;
+
+}
+.headerContainer{
+  height: 110px;
+  width: 100%;
+  display: flex;
+  background-color:#EE1C0F;
+  
+}
+
+.headerLeft{
+  height: 110x;
+  width: 35px;
+  background-color: #EE1C0F;
+}
+.headerLogo{
+  width: 125px;
+  background-color: #F1F4F6;
+  margin-top: -30px;
+}
+.logo{
+  height: 125px;
+
+}
+.headerNav{
+  margin-left: 310px;
+  color: white;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+.headerNavBar{
+  display: flex;
+  align-items: center;
+}
+
+.navbarElementos{
+  border-right: 1px solid rgba(255, 255, 255, 0.428);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 25px;
+  padding-left: 65px ;
+}
+.navbarElementos:hover{
+  border-right: 1px solid rgba(255, 255, 255, 1);
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-right: 41px;
+  padding-left: 49px;
+  cursor: pointer;
+  transition: all 300ms;
+
+}
+.navbarElementosContacto{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 25px;
+  padding-left: 65px ;
+}
+.navbarElementosContacto:hover{
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-right: 41px;
+  padding-left: 49px;
+  cursor: pointer;
+  transition: all 300ms;
+
+}
+.underline-hover::after{
+  content: '';
+  height: 4px;
+  width: 0;
+  background-color: #F1F4F6;
+  display: block;
+  transition: all 300ms;
+
+}
+.underline-hover:hover::after{
+  width: 100%;
+  margin-top: 10px;
+}
+.link{
+  color: #F1F4F6;
+  text-decoration: none;
+}
+.linkNegro{
+
+  text-decoration: none;
+}
+
+.contacto{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 55px ;
+}
+li{
+  list-style: none;
+}
+
+/* ESTILOS ARTISTAS DROPDOWN*/
+.dropdown-menu {
+  width: 175px;
+  position: absolute;
+  top: 110px;
+  margin-left: -50px;
+  list-style: none;
+  text-align: start;
+  transition: all 500ms;
+}
+
+.dropdown-menu li {
+  background: #EE1C0F;
+  cursor: pointer;
+  border-bottom: 0.5px solid #f1f4f6aa;
+  font-family:'Be Vietnam Pro' ;
+}
+
+.dropdown-menu li:hover {
+  background: #c5160d;
+}
+
+.dropdown-menu.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+
+}
+
+
+
+
+
+.headerRedes{
+  margin: auto 0;
+  margin-left: 90px;
+}
+.iconos{
+  height: 24px;
+}
+.iconosInstagram{
+  height: 26px;
+}
+
+
+/*ESTILOS IMG Y TEXT HOME*/
+
+.imgHome{
+  height: 420px;
+  margin-left: 35px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.61);
+-webkit-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.61);
+-moz-box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.61);
+}
+.txtHome{
+  width: 653px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-left: 75px;
+}
+.contenidoHome{
+  display: flex;
+  flex-direction: row;
+}
+
+/*ESTILOS ARTISTAS*/
+.artistas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.imgArtista{
+  height: 180px;
+  margin: 15px 30px 15px 30px;
+  border-radius: 5px;
+  box-shadow: 3px 10px 19px 2px rgba(0,0,0,0.16);
+  -webkit-box-shadow: 3px 10px 19px 2px rgba(0,0,0,0.16);
+  -moz-box-shadow: 3px 10px 19px 2px rgba(0,0,0,0.16);
+}
+.divArtista{
+  height: 180px;
+  width: 270px;
+  margin: 15px 30px 15px 30px;
+  border-radius: 5px;
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/27/21/44/musician-1284394_960_720.jpg');
+
+}
+
+
+@media screen and  (min-width: 1366px) and (max-width: 1920px) {
+ 
+  
+}
