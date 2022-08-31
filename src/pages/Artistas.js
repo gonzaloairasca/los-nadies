@@ -4,54 +4,36 @@ function Artistas() {
     <section className="artistas">
       <Link className="linkNegro" to="/">
         <div className="divArtista">
-          <h3>Nahuel bustamante</h3>
+          <div className="divArtistaInfo">
+            <h3>Nahuel bustamante</h3>
+          </div>
         </div>
       </Link>
-      <div>
-        <Link to="/">
-          <img
-            className="imgArtista"
-            src="https://cdn.pixabay.com/photo/2016/03/27/21/44/musician-1284394_960_720.jpg"
-            alt=""
-          />
-        </Link>
-      </div>
-      <div>
-        <Link to="/">
-          <img
-            className="imgArtista"
-            src="https://cdn.pixabay.com/photo/2016/03/27/21/44/musician-1284394_960_720.jpg"
-            alt=""
-          />
-        </Link>
-      </div>
-      <div>
-        <Link to="/">
-          <img
-            className="imgArtista"
-            src="https://cdn.pixabay.com/photo/2016/03/27/21/44/musician-1284394_960_720.jpg"
-            alt=""
-          />
-        </Link>
-      </div>
-      <div>
-        <Link to="/">
-          <img
-            className="imgArtista"
-            src="https://cdn.pixabay.com/photo/2016/03/27/21/44/musician-1284394_960_720.jpg"
-            alt=""
-          />
-        </Link>
-      </div>
-      <div>
-        <Link to="/">
-          <img
-            className="imgArtista"
-            src="https://cdn.pixabay.com/photo/2016/03/27/21/44/musician-1284394_960_720.jpg"
-            alt=""
-          />
-        </Link>
-      </div>
+      <Link className="linkNegro" to="/">
+        <div className="divArtista">
+          <h3 className="divArtistaInfo">Nahuel bustamante</h3>
+        </div>
+      </Link>
+      <Link className="linkNegro" to="/">
+        <div className="divArtista">
+          <h3 className="divArtistaInfo">Nahuel bustamante</h3>
+        </div>
+      </Link>
+      <Link className="linkNegro" to="/">
+        <div className="divArtista">
+          <h3 className="divArtistaInfo">Nahuel bustamante</h3>
+        </div>
+      </Link>
+      <Link className="linkNegro" to="/">
+        <div className="divArtista">
+          <h3 className="divArtistaInfo">Nahuel bustamante</h3>
+        </div>
+      </Link>
+      <Link className="linkNegro" to="/">
+        <div className="divArtista">
+          <h3 className="divArtistaInfo">Nahuel bustamante</h3>
+        </div>
+      </Link>
     </section>
   );
 }
